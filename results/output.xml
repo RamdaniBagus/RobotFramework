@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3.2 (Python 3.14.0 on win32)" generated="2025-11-11T14:01:23.810211" rpa="false" schemaversion="5">
+<suite id="s1" name="Belajar RobotFramework" source="C:\QA\Belajar RobotFramework">
+<suite id="s1-s1" name="Main" source="C:\QA\Belajar RobotFramework\main.robot">
+<test id="s1-s1-t1" name="Open Browser Test" line="7">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-11-11T14:01:24.188191" level="INFO">Opening browser 'chrome' to base url 'https://google.com'.</msg>
+<arg>${url_google}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-11-11T14:01:24.187691" elapsed="2.112057"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-11-11T14:01:26.300287" elapsed="2.113960"/>
+</kw>
+<status status="PASS" start="2025-11-11T14:01:24.183881" elapsed="4.232003"/>
+</test>
+<test id="s1-s1-t2" name="DemoQa Input Text" line="11">
+<kw name="Input Text In Field" owner="steps">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-11-11T14:01:28.446331" level="INFO">Opening browser 'chrome' to base url 'https://demoqa.com/text-box'.</msg>
+<arg>${url_demo}</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-11-11T14:01:28.445815" elapsed="6.567670"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-11T14:01:38.015407" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-11T14:01:35.013861" elapsed="3.002707"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-11-11T14:01:38.020632" level="INFO">Typing text 'test' into text field 'id=userName'.</msg>
+<arg>${input}</arg>
+<arg>test</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-11-11T14:01:38.017542" elapsed="0.178162"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-11-11T14:01:41.197091" level="INFO">Slept 3 seconds.</msg>
+<arg>3s</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-11-11T14:01:38.196000" elapsed="3.002620"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-11-11T14:01:41.199608" elapsed="2.194502"/>
+</kw>
+<status status="PASS" start="2025-11-11T14:01:28.444907" elapsed="14.950024"/>
+</kw>
+<status status="PASS" start="2025-11-11T14:01:28.428473" elapsed="14.967890"/>
+</test>
+<status status="PASS" start="2025-11-11T14:01:23.853183" elapsed="19.559850"/>
+</suite>
+<status status="PASS" start="2025-11-11T14:01:23.817966" elapsed="19.623726"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Belajar RobotFramework" id="s1" pass="2" fail="0" skip="0">Belajar RobotFramework</stat>
+<stat name="Main" id="s1-s1" pass="2" fail="0" skip="0">Belajar RobotFramework.Main</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
