@@ -1,87 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 7.3.2 (Python 3.14.0 on win32)" generated="2025-11-11T17:43:52.734815" rpa="false" schemaversion="5">
+<robot generator="Robot 7.3.2 (Python 3.14.0 on win32)" generated="2025-11-11T18:10:11.709141" rpa="false" schemaversion="5">
 <suite id="s1" name="Belajar RobotFramework" source="C:\QA\Belajar RobotFramework">
 <suite id="s1-s1" name="Main" source="C:\QA\Belajar RobotFramework\main.robot">
 <test id="s1-s1-t1" name="Open Browser Test" line="8">
 <kw name="Open Google" owner="steps">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-11-11T17:43:53.085588" level="INFO">Opening browser 'chrome' to base url 'https://google.com'.</msg>
+<msg time="2025-11-11T18:10:12.048856" level="INFO">Opening browser 'chrome' to base url 'https://google.com'.</msg>
 <arg>${url_google}</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-11-11T17:43:53.085123" elapsed="2.807639"/>
+<status status="PASS" start="2025-11-11T18:10:12.048210" elapsed="2.143386"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-11-11T17:43:58.894585" level="INFO">Slept 3 seconds.</msg>
+<msg time="2025-11-11T18:10:17.194421" level="INFO">Slept 3 seconds.</msg>
 <arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-11-11T17:43:55.893486" elapsed="3.002751"/>
+<status status="PASS" start="2025-11-11T18:10:14.192101" elapsed="3.003940"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-11-11T17:43:58.897322" elapsed="2.199611"/>
+<status status="PASS" start="2025-11-11T18:10:17.197263" elapsed="2.207060"/>
 </kw>
-<status status="PASS" start="2025-11-11T17:43:53.084077" elapsed="8.013642"/>
+<status status="PASS" start="2025-11-11T18:10:12.046334" elapsed="7.358790"/>
 </kw>
-<status status="PASS" start="2025-11-11T17:43:53.080246" elapsed="8.018921"/>
+<status status="PASS" start="2025-11-11T18:10:12.042616" elapsed="7.363966"/>
 </test>
 <test id="s1-s1-t2" name="DemoQa Input Text" line="11">
 <kw name="Input Text In Field" owner="steps">
 <kw name="Open Browser" owner="SeleniumLibrary">
-<msg time="2025-11-11T17:44:01.129141" level="INFO">Opening browser 'chrome' to base url 'https://demoqa.com/text-box'.</msg>
+<msg time="2025-11-11T18:10:19.447082" level="INFO">Opening browser 'chrome' to base url 'https://demoqa.com/text-box'.</msg>
 <arg>${url_demo}</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<status status="PASS" start="2025-11-11T17:44:01.128625" elapsed="6.630993"/>
+<status status="PASS" start="2025-11-11T18:10:19.445955" elapsed="6.283837"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-11-11T17:44:10.760775" level="INFO">Slept 3 seconds.</msg>
+<msg time="2025-11-11T18:10:28.731468" level="INFO">Slept 3 seconds.</msg>
 <arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-11-11T17:44:07.759902" elapsed="3.001778"/>
+<status status="PASS" start="2025-11-11T18:10:25.730177" elapsed="3.001967"/>
 </kw>
 <kw name="Input Text" owner="SeleniumLibrary">
-<msg time="2025-11-11T17:44:10.763998" level="INFO">Typing text 'test' into text field 'id=userName'.</msg>
+<msg time="2025-11-11T18:10:28.734884" level="INFO">Typing text 'test' into text field 'id=userName'.</msg>
 <arg>${input}</arg>
 <arg>test</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<status status="PASS" start="2025-11-11T17:44:10.762269" elapsed="0.151768"/>
+<status status="PASS" start="2025-11-11T18:10:28.732972" elapsed="0.186294"/>
 </kw>
 <kw name="Sleep" owner="BuiltIn">
-<msg time="2025-11-11T17:44:13.915299" level="INFO">Slept 3 seconds.</msg>
+<msg time="2025-11-11T18:10:31.920228" level="INFO">Slept 3 seconds.</msg>
 <arg>3s</arg>
 <doc>Pauses the test executed for the given time.</doc>
-<status status="PASS" start="2025-11-11T17:44:10.914357" elapsed="3.001806"/>
+<status status="PASS" start="2025-11-11T18:10:28.919529" elapsed="3.002240"/>
 </kw>
 <kw name="Close Browser" owner="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" start="2025-11-11T17:44:13.916752" elapsed="2.175146"/>
+<status status="PASS" start="2025-11-11T18:10:31.922856" elapsed="2.188566"/>
 </kw>
-<status status="PASS" start="2025-11-11T17:44:01.127751" elapsed="14.964998"/>
+<status status="PASS" start="2025-11-11T18:10:19.444350" elapsed="14.667858"/>
 </kw>
-<status status="PASS" start="2025-11-11T17:44:01.111983" elapsed="14.982289"/>
+<status status="PASS" start="2025-11-11T18:10:19.420741" elapsed="14.692878"/>
 </test>
 <test id="s1-s1-t3" name="Test Print In Console" line="14">
 <kw name="Log To Console" owner="BuiltIn">
-<arg>Test Cetak</arg>
+<arg>Test Cetak /*tidak tampil di info*/</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" start="2025-11-11T17:44:16.120079" elapsed="0.000729"/>
+<status status="PASS" start="2025-11-11T18:10:34.149716" elapsed="0.002553"/>
 </kw>
-<status status="PASS" start="2025-11-11T17:44:16.108486" elapsed="0.012827"/>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-11-11T18:10:34.156075" level="FAIL">Invalid log level '/* tampil di info */'.</msg>
+<arg>Test Cetak 2</arg>
+<arg>/* tampil di info */</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="FAIL" start="2025-11-11T18:10:34.154155" elapsed="0.020134">Invalid log level '/* tampil di info */'.</status>
+</kw>
+<status status="FAIL" start="2025-11-11T18:10:34.127089" elapsed="265.341713">Invalid log level '/* tampil di info */'.</status>
 </test>
-<status status="PASS" start="2025-11-11T17:43:52.780606" elapsed="23.347991"/>
+<status status="FAIL" start="2025-11-11T18:10:11.751941" elapsed="287.747490"/>
 </suite>
-<status status="PASS" start="2025-11-11T17:43:52.743968" elapsed="23.390076"/>
+<status status="FAIL" start="2025-11-11T18:10:11.716585" elapsed="287.793931"/>
 </suite>
 <statistics>
 <total>
-<stat pass="3" fail="0" skip="0">All Tests</stat>
+<stat pass="2" fail="1" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat name="Belajar RobotFramework" id="s1" pass="3" fail="0" skip="0">Belajar RobotFramework</stat>
-<stat name="Main" id="s1-s1" pass="3" fail="0" skip="0">Belajar RobotFramework.Main</stat>
+<stat name="Belajar RobotFramework" id="s1" pass="2" fail="1" skip="0">Belajar RobotFramework</stat>
+<stat name="Main" id="s1-s1" pass="2" fail="1" skip="0">Belajar RobotFramework.Main</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
+="1" skip="0">Belajar RobotFramework</stat>
+<stat name="Main" id="s1-s1" pass="2" fail="1" skip="0">Belajar RobotFramework.Main</stat>
 </suite>
 </statistics>
 <errors>
