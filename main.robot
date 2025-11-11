@@ -1,13 +1,15 @@
 *** Settings ***
 Library    SeleniumLibrary
+Library    BuiltIn
 Resource    Resources/steps.robot
 
 
 *** Test Cases ***
 Open Browser Test
-    Open Browser    ${url_google}    chrome
-    Sleep           3s
-    Close Browser
+    Open Google
 
 DemoQa Input Text
     Input Text In Field
+
+Test Print In Console
+    Log To Console  Test Cetak
